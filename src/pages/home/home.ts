@@ -31,7 +31,7 @@ export class HomePage {
 
     this.data = {};
     // [Step 2 - Creating Tables]
-    /*this.storage = new SQLite();
+    this.storage = new SQLite();
     this.storage.openDatabase({
       name: 'ionic.offline',
       location: 'default'
@@ -44,7 +44,7 @@ export class HomePage {
         tempMin INT,
         tempMax INT
       ))`, {});
-    });*/
+    });
 
     // [Step 5 - Tying it Together]
     /*this.getForecast(this.getToday()).then((data) => {
