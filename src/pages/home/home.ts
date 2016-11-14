@@ -46,8 +46,8 @@ export class HomePage {
       ))`, {});
     });
 
-    // [Step 5 - Tying it Together]
-    /*this.getForecast(this.getToday()).then((data) => {
+    // [Step 5 - Tying it Together] // Main Function which is checking whether to Get data from db or Server
+    this.getForecast(this.getToday()).then((data) => {
       if (data) {
         // obtained forecast from database
         this.data = data;
@@ -55,7 +55,7 @@ export class HomePage {
         // could not get forecast from database, go to network
         this.fetchForecasts();
       }
-    });*/
+    });
 
   }
 
