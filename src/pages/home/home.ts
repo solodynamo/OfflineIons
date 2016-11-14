@@ -154,7 +154,7 @@ export class HomePage {
 
 
   // [Step 3 - Saving Data]
-  /*saveForecasts = (forecasts) => {
+  saveForecasts = (forecasts) => {
     let query = "INSERT OR REPLACE INTO forecasts VALUES (?, ?, ?, ?, ?, ?)";
     for (let forecast of forecasts) {
       this.storage.executeSql(query, [
@@ -167,7 +167,7 @@ export class HomePage {
       ]);
     }
     return forecasts;
-  }*/
+  }
 
 
   // UTILITY
