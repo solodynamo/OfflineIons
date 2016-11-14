@@ -141,7 +141,7 @@ export class HomePage {
   }
 
   // [Step 4 - Retrieving Data]
-  /*getForecast(date: string) {
+  getForecast(date: string) {
     return this.storage.executeSql("SELECT * FROM forecasts WHERE date = ?", { date }).then((resp) => {
       if (resp.res.rows.length > 0) {
         for (var i = 0; i < resp.res.rows.length; i++) {
@@ -150,7 +150,7 @@ export class HomePage {
         }
       }
     });
-  }*/
+  }
 
 
   // [Step 3 - Saving Data]
